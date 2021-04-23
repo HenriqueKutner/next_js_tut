@@ -1,16 +1,15 @@
 import { useEffect } from 'react'
-import { useRouter } from ' next/router'
+// import { useRouter } from ' next/router'
 import Link from 'next/link'
 
 const NotFound = () => {
 
-    const router = useRouter()
-    console.log(router)
+    // const router = useRouter()
+    // console.log(router)
 
     useEffect(() => {
         setTimeout(() => {
-            router.push('/');
-            console.log(5)
+            // router.push('/');
         }, 3000)
     },[])
 
