@@ -6,11 +6,11 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <h1>HomePage</h1>
-      <p>Lorem</p>
+    <div>
+      <h1 className={styles.title}>HomePage</h1>
+      <p className={styles.text}>Lorem</p>
       <Link href="/ninjas">
-        <a>See Ninja Listing</a>
+        <a className={styles.tbn}>See Ninja Listing</a>
       </Link>
     </div>
   )
