@@ -7,13 +7,11 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Navbar />
       <h1>HomePage</h1>
       <p>Lorem</p>
       <Link href="/ninjas">
         <a>See Ninja Listing</a>
       </Link>
-      <Footer />
     </div>
   )
 }
