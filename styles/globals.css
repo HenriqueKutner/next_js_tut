@@ -27,6 +27,7 @@ nav a {
 nav .logo {
   margin-right: auto;
 }
+
 footer {
   display: block;
   text-align: center;
@@ -34,4 +35,12 @@ footer {
   margin-top: 60px;
   color: #777;
   border-top: 1px solid #eaeaea;
+}
+
+.not-found {
+  text-align: center;
+}
+.not-found a {
+  color: #4979ff;
+  text-decoration: underline;
 }
